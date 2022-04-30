@@ -16,6 +16,6 @@ class Cell:
 
     def get_print_character(self):
         if self.isalive() == True:
-            return '■'
+            return 'blue'
         else:
-            return '□'
+            return 'black'
